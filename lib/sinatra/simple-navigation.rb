@@ -1,0 +1,1 @@
+require 'sinatra/simple_navigation'
