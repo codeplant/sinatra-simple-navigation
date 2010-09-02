@@ -1,0 +1,12 @@
+h1. sinatra-simple-navigation
+
+sinatra-simple-navigation is a sinatra extension enabling the use of the "simple-navigation":http://github.com/andi/simple-navigation gem in your sinatra and padrino applications.
+
+
+h1. Resources
+
+* simple-navigation gem source code: "http://github.com/andi/simple-navigation"
+
+
+
+Copyright (c) 2010 Andi Schacke, released under the MIT license
