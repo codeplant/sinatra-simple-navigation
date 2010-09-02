@@ -1,4 +1,4 @@
-h2. sinatra-simple-navigation
+h1. sinatra-simple-navigation
 
 sinatra-simple-navigation is a sinatra extension enabling the use of the "simple-navigation":http://github.com/andi/simple-navigation gem in your sinatra and padrino applications.
 
@@ -19,6 +19,14 @@ h2. Usage
 h3. Sinatra Applications
 
 h4. Classic Style
+
+To use simple-navigation in your classic style sinatra application, just require 'sinatra/simple-navigation':
+
+<pre><code>require 'rubygems'
+require 'sinatra'
+require 'sinatra/simple-navigation'
+
+# Your app code goes here</code></pre>
 
 h4. Modular Style
 
