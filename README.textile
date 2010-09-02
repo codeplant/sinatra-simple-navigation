@@ -1,35 +1,35 @@
-h1. sinatra-simple-navigation
+h2. sinatra-simple-navigation
 
 sinatra-simple-navigation is a sinatra extension enabling the use of the "simple-navigation":http://github.com/andi/simple-navigation gem in your sinatra and padrino applications.
 
-h1. Installation
+h2. Installation
 
 Either manually install the gem
 
-.bc gem install sinatra-simple-navigation
+@gem install sinatra-simple-navigation@
 
 or preferably use bundler and add it to your Gemfile
 
-.bc gem 'sinatra-simple-navigation'
+@gem 'sinatra-simple-navigation'@
 
 and run @bundle install@
 
-h1. Usage
+h2. Usage
 
-h2. Sinatra Applications
+h3. Sinatra Applications
 
-h3. Classic Style
+h4. Classic Style
 
-h3. Modular Style
+h4. Modular Style
 
-h2. Padrino Applications
+h3. Padrino Applications
 
-h1. Resources
+h2. Resources
 
 * simple-navigation source code: "http://github.com/andi/simple-navigation":http://github.com/andi/simple-navigation
 * simple-navigation wiki: "http://wiki.github.com/andi/simple-navigation":http://wiki.github.com/andi/simple-navigation
 * demo project with sample applications for rails, sinatra and padrino: "http://github.com/andi/simple-navigation-demo":http://github.com/andi/simple-navigation-demo
 
-h1. Legal
+h2. Legal
 
 Copyright (c) 2010 Andi Schacke, released under the MIT license
