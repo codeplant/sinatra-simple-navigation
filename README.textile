@@ -30,7 +30,33 @@ require 'sinatra/simple-navigation'
 
 h4. Modular Style
 
+If you're developing a module style sinatra application (i.e. subclassing Sinatra::Base), you have to register Sinatra::SimpleNavigation:
+
+<pre><code>require 'rubygems'
+require 'sinatra/base'
+require 'sinatra/simple-navigation'
+
+class MyApp < Sinatra::Base
+  register Sinatra::SimpleNavigation
+  
+  # Your app code goes here
+end</code></pre>
+
 h3. Padrino Applications
+
+Using simple-navigation in your padrino application is similar to the modular sinatra style. In your @app/app.rb@ file:
+
+<pre><code>require 'sinatra/simple-navigation'
+
+class MyApp < Padrino::Application
+  register Sinatra::SimpleNavigation
+  
+  # Your app code goes here
+end</code></pre>
+
+Instead of requiring sinatra/simple-navigation at the top of the file, you could add this to your Gemfile:
+
+@gem 'sinatra-simple-navigation', :require => 'sinatra/simple-navigation'@
 
 h2. Resources
 
