@@ -4,13 +4,13 @@ sinatra-simple-navigation is a sinatra extension enabling the use of the "simple
 
 h2. Installation
 
-Either manually install the gem
+Either manually install the gem (using the --pre option since it is still beta)
 
-@gem install sinatra-simple-navigation@
+@gem install --pre sinatra-simple-navigation@
 
 or preferably use bundler and add it to your Gemfile
 
-@gem 'sinatra-simple-navigation'@
+@gem 'sinatra-simple-navigation', '3.0.0.beta1'@
 
 and run @bundle install@
 
