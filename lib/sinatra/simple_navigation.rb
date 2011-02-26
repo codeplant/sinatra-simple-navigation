@@ -8,6 +8,10 @@ module Sinatra
     end
   end
 
-  ::SimpleNavigation.register
-  helpers ::SimpleNavigation::Helpers
+  #check if root is defined. It's undefined for modular style apps. 
+  unless ::Sinatra::Application.root.nil?
+    ::SimpleNavigation.register
+    helpers ::SimpleNavigation::Helpers
+  end
+
 end
