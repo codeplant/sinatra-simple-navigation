@@ -5,6 +5,7 @@ module Sinatra
   module SimpleNavigation
     def self.registered(app)
       app.helpers ::SimpleNavigation::Helpers
+      ::SimpleNavigation.register
     end
   end
 
