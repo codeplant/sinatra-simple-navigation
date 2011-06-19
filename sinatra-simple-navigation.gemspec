@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{sinatra-simple-navigation}
-  s.version = "3.3.1"
+  s.version = "3.3.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Andi Schacke}]
-  s.date = %q{2011-06-14}
+  s.date = %q{2011-06-19}
   s.description = %q{A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino. See http://github.com/andi/simple-navigation for more information on simple-navigation.}
   s.email = %q{andreas.schacke@gmail.com}
   s.extra_rdoc_files = [

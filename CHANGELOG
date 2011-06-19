@@ -1,3 +1,7 @@
+*3.3.2
+
+* depends on simple-navigation 3.3.1
+
 *3.3.1
 
 * fixing padrino. Did not register properly (downside: registers twice now in sinatra)
