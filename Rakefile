@@ -20,7 +20,7 @@ begin
     gemspec.description = "A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino. See http://github.com/andi/simple-navigation for more information on simple-navigation."
     #gemspec.add_development_dependency('rspec', '>= 1.2.8')
     gemspec.add_dependency('simple-navigation', '>= 3.3.2')
-    gemspec.authors = ["Andi Schacke"]
+    gemspec.authors = ["Andi Schacke", "Mark J. Titorenko"]
     gemspec.rdoc_options = ["--inline-source", "--charset=UTF-8"]
     gemspec.files = FileList["[A-Z]*", "{lib,spec}/**/*"] - FileList["**/*.log"]
     gemspec.rubyforge_project = 'andi'
