@@ -66,4 +66,4 @@ h2. Resources
 
 h2. Legal
 
-Copyright (c) 2010 Andi Schacke, released under the MIT license
+Copyright (c) 2011 Andi Schacke, released under the MIT license
