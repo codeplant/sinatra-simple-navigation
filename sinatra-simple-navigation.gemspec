@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{sinatra-simple-navigation}
-  s.version = "3.5.1"
+  s.name = "sinatra-simple-navigation"
+  s.version = "3.6.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andi Schacke", "Mark J. Titorenko"]
-  s.date = %q{2011-11-19}
-  s.description = %q{A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino. See http://github.com/andi/simple-navigation for more information on simple-navigation.}
-  s.email = %q{andreas.schacke@gmail.com}
+  s.date = "2013-04-10"
+  s.description = "A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino. See http://github.com/andi/simple-navigation for more information on simple-navigation."
+  s.email = "andreas.schacke@gmail.com"
   s.extra_rdoc_files = [
     "README.textile"
   ]
@@ -23,24 +23,23 @@ Gem::Specification.new do |s|
     "lib/sinatra/simple-navigation.rb",
     "lib/sinatra/simple_navigation.rb"
   ]
-  s.homepage = %q{http://github.com/andi/sinatra-simple-navigation}
+  s.homepage = "http://github.com/andi/sinatra-simple-navigation"
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{andi}
-  s.rubygems_version = %q{1.3.7}
-  s.summary = %q{A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino.}
+  s.rubyforge_project = "andi"
+  s.rubygems_version = "1.8.24"
+  s.summary = "A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino."
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<simple-navigation>, [">= 3.5.0"])
+      s.add_runtime_dependency(%q<simple-navigation>, [">= 3.10.1"])
     else
-      s.add_dependency(%q<simple-navigation>, [">= 3.5.0"])
+      s.add_dependency(%q<simple-navigation>, [">= 3.10.1"])
     end
   else
-    s.add_dependency(%q<simple-navigation>, [">= 3.5.0"])
+    s.add_dependency(%q<simple-navigation>, [">= 3.10.1"])
   end
 end
 
