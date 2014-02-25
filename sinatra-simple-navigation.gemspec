@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name             = 'sinatra-simple-navigation'
   spec.version          = Sinatra::SimpleNavigation::VERSION
   spec.authors          = ['Andi Schacke', 'Mark J. Titorenko']
-  spec.email            = ['andreas.schacke@gmail.com']
+  spec.email            = ['andi@codeplant.ch']
   spec.description      = 'A Sinatra extension to enable creating navigations ' \
                           'with the simple-navigation gem. Also works for '     \
                           'Padrino. See '                                       \
@@ -26,5 +26,5 @@ Gem::Specification.new do |spec|
 
   spec.rdoc_options     = ['--inline-source', '--charset=UTF-8']
 
-  spec.add_runtime_dependency('simple-navigation', '>= 3.10.1')
+  spec.add_runtime_dependency('simple-navigation', '>= 3.12.0')
 end
