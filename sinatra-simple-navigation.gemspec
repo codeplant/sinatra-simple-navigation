@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andi Schacke", "Mark J. Titorenko"]
   s.date = "2013-04-10"
-  s.description = "A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino. See http://github.com/andi/simple-navigation for more information on simple-navigation."
+  s.description = "A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino. See http://github.com/codeplant/simple-navigation for more information on simple-navigation."
   s.email = "andreas.schacke@gmail.com"
   s.extra_rdoc_files = [
     "README.textile"

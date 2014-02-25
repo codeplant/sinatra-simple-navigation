@@ -1,6 +1,6 @@
 h1. sinatra-simple-navigation
 
-sinatra-simple-navigation is a sinatra extension enabling the use of the "simple-navigation":http://github.com/andi/simple-navigation gem in your sinatra and padrino applications.
+sinatra-simple-navigation is a sinatra extension enabling the use of the "simple-navigation":http://github.com/codeplant/simple-navigation gem in your sinatra and padrino applications.
 
 h2. Installation
 
@@ -60,9 +60,9 @@ Instead of requiring sinatra/simple-navigation at the top of the file, you could
 
 h2. Resources
 
-* simple-navigation source code: "http://github.com/andi/simple-navigation":http://github.com/andi/simple-navigation
-* simple-navigation wiki: "http://wiki.github.com/andi/simple-navigation":http://wiki.github.com/andi/simple-navigation
-* demo project with sample applications for rails, sinatra and padrino: "http://github.com/andi/simple-navigation-demo":http://github.com/andi/simple-navigation-demo
+* simple-navigation source code: "http://github.com/codeplant/simple-navigation":http://github.com/codeplant/simple-navigation
+* simple-navigation wiki: "http://wiki.github.com/codeplant/simple-navigation":http://wiki.github.com/codeplant/simple-navigation
+* demo project with sample applications for rails, sinatra and padrino: "http://github.com/codeplant/simple-navigation-demo":http://github.com/codeplant/simple-navigation-demo
 
 h2. Legal
 
