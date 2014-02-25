@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     "lib/sinatra/simple-navigation.rb",
     "lib/sinatra/simple_navigation.rb"
   ]
-  s.homepage = "http://github.com/andi/sinatra-simple-navigation"
+  s.homepage = "http://github.com/codeplant/sinatra-simple-navigation"
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "andi"
