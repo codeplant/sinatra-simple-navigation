@@ -1,3 +1,4 @@
+require 'sinatra/simple_navigation/version'
 require 'simple-navigation'
 
 module Sinatra
