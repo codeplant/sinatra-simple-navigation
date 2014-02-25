@@ -1,3 +1,5 @@
+!https://badge.fury.io/rb/sinatra-simple-navigation.png!:http://badge.fury.io/rb/sinatra-simple-navigation
+
 h1. sinatra-simple-navigation
 
 sinatra-simple-navigation is a sinatra extension enabling the use of the "simple-navigation":http://github.com/codeplant/simple-navigation gem in your sinatra and padrino applications.
