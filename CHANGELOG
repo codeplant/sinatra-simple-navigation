@@ -1,3 +1,7 @@
+*3.8.0
+
+* fix extension registration, depends on simple-navigation 3.15.0
+
 *3.7.0
 
 * depends on simple-navigation 3.12.0

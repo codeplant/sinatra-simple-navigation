@@ -26,7 +26,8 @@ Gem::Specification.new do |spec|
 
   spec.rdoc_options     = ['--inline-source', '--charset=UTF-8']
 
-  spec.add_runtime_dependency('simple-navigation', '>= 3.12.0')
+  spec.add_runtime_dependency('simple-navigation', '>= 3.15.0')
+  spec.add_runtime_dependency('sinatra', '~> 1.0')
 
   spec.add_development_dependency 'rake'
 end
