@@ -1,3 +1,7 @@
+*3.7.1
+
+* pins down dependency on simple-navigation >= 3.12 and < 4.0
+
 *3.7.0
 
 * depends on simple-navigation 3.12.0
