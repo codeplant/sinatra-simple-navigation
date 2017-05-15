@@ -1,5 +1,5 @@
 module Sinatra
   module SimpleNavigation
-    VERSION = '5.0.0'
+    VERSION = '4.1.0'
   end
 end
